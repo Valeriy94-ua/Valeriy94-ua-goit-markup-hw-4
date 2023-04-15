@@ -79,12 +79,7 @@ button {
     line-height: 1.07;
     color: var(--usual-white);
     text-align: center;
-    letter-spacing: 0.02em;
-    text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
-    -webkit-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
-    -moz-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
-    
-
+    letter-spacing: 0.02em; 
 }
 
 .header-two {
@@ -101,6 +96,7 @@ button {
 
 .header-three {
     margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -433,7 +429,7 @@ button {
 }
 
 .logotype-link-footer {
-    display: inline-block;
+    display: flex;
     margin-bottom: 16px;
     
     font-family: 'Raleway', sans-serif;
@@ -490,21 +486,15 @@ button {
 }
 
 .menu-button {
+    padding: 11px 23px;
 
+    border: 1px solid var(--border-menu-button);
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--accent-color);
-    border: 1px solid var(--border-menu-button);
     border-radius: 4px;
     background-color: var(--menu-background-normal);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
 }
 
 .menu-button:hover,
