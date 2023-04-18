@@ -9,7 +9,7 @@
     --border-menu-button: #E7E9FC;
     --address-link-text: #434455;
     --accent-text: #2E2F42;
-    --bg-soc-footer: #434455;
+    --bg-soc-footer: #4d5ae5;
     --bg-soc-footer-hover: #31D0AA;
     /* SHADOWS */
     --hero-box-shadow: rgba(0, 0, 0, 0.15);
@@ -613,6 +613,10 @@ button {
     
 }
 
+.soc-icon-footer {
+    fill: var(--menu-background-normal);
+}
+
 .soc-link-footer {
     display: flex;
     justify-content: center;
@@ -688,11 +692,18 @@ button {
     width: calc((100% - 2 * 24px) / 3);   
 }
 
-.menu-item-img:hover,
-.menu-item-img:focus {
+.icons-link-img {
+    display: block;
+}
+
+.icons-link-img:hover,
+.icons-link-img:focus {
     box-shadow: var(--portfolio-card-shadow);
 }
 
+.icons-link-img {
+    
+}
 .menu-border {
     padding: 32px 16px;
     border: 1px solid var(--border-menu-button);
